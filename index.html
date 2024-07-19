@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -46,8 +47,9 @@
                 </a>
               </li>
               <li class="user-list__item">
-                <a class="user-list__link" href="#">
+                <a class="user-list__link basket" href="#">
                   <img src="images/basket.svg" alt="">
+                  <p class="basket__num">1</p>
                 </a>
               </li>
             </ul>
@@ -57,7 +59,6 @@
     </div>
     <div class="header__bottom">
       <div class="container">
-        <div class="header__bottom-inner">
           <ul class="menu-categories">
             <li class="menu-categories-item">
               <a class="menu-categories__link" href="#">Квадроциклы</a>
@@ -84,10 +85,53 @@
               <a class="menu-categories__link" href="#">Запчасти</a>
             </li>
           </ul>
-        </div>
       </div>
     </div>
   </header>
+
+  <div class="banner-section">
+    <div class="container">
+      <div class="banner-section__inner">
+        <div class="banner-section__slider">
+          <a class="banner-section__slider-item" href="#">
+            <img src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img src="images/banner-slider.jpg" alt="">
+          </a>
+          <a class="banner-section__slider-item" href="#">
+            <img src="images/banner-slider.jpg" alt="">
+          </a>
+          
+        </div>
+        <a class="banner-section__item sale-item" href="#">
+          <div class="sale-item__top">
+            <div class="sale-item__info">
+              акция
+            </div>
+            <div class="sale-item__price">
+              <div class="price sale-item__price-new">
+                190 000 $
+              </div>
+              <div class="price sale-item__price-old">
+                225 000 $
+              </div>
+            </div>
+          </div>
+          <img class="sale-item__img src="images/content/sale-1.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
