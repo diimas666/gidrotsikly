@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
 </head>
 <body>
   <header class="header">
@@ -36,7 +38,7 @@
           </a>
           <div class="header__box">
             <p class="header__adress">
-              Москва,  ул. Науки  25
+              Киев.Набережная 25
             </p>
             <ul class="user-list">
               <li class="user-list__item">
@@ -90,96 +92,93 @@
           </ul>
       </div>
     </div>
-  </header>
-
-  <div class="banner-section">
-    <div class="container">
-      <div class="banner-section__inner">
-        <div class="banner-section__slider">
-          <a class="banner-section__slider-item" href="#">
-            <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
-          </a>
-          <a class="banner-section__slider-item" href="#">
-            <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
-          </a>
-          <a class="banner-section__slider-item" href="#">
-            <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
-          </a>
-          <a class="banner-section__slider-item" href="#">
-            <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
-          </a>
-          <a class="banner-section__slider-item" href="#">
-            <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
-          </a>
-          <a class="banner-section__slider-item" href="#">
-            <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
-          </a>
-          
-        </div>
-        <a class="banner-section__item sale-item" href="#">
-          <div class="sale-item__top">
-            <p class="sale-item__info">
-              акция
-            </p>
-            <div class="sale-item__price">
-              <div class="price sale-item__price-new">
-                190 000 
-              </div>
-              <div class="price sale-item__price-old">
-                225 000 
+    
+    <div class="banner-section page-section">
+      <div class="container">
+        <div class="banner-section__inner">
+          <div class="banner-section__slider">
+            <a class="banner-section__slider-item" href="#">
+              <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
+            </a>
+            <a class="banner-section__slider-item" href="#">
+              <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
+            </a>
+            <a class="banner-section__slider-item" href="#">
+              <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
+            </a>
+            <a class="banner-section__slider-item" href="#">
+              <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
+            </a>
+            <a class="banner-section__slider-item" href="#">
+              <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
+            </a>
+            <a class="banner-section__slider-item" href="#">
+              <img class="banner-section__slider-img" src="images/banner-slider.jpg" alt="">
+            </a>
+          </div>
+          <a class="banner-section__item sale-item" href="#">
+            <div class="sale-item__top">
+              <p class="sale-item__info">
+                акция
+              </p>
+              <div class="sale-item__price">
+                <div class="price sale-item__price-new">
+                  190 000 
+                </div>
+                <div class="price sale-item__price-old">
+                  225 000 
+                </div>
               </div>
             </div>
-          </div>
-          <div>
-            <img class="sale-item__img" src="images/content/sale-1.png" alt="">
-          </div>
-          <h5 class="sale-item__title">
-            Лодочный мотор Suzuki DF9.9BRS
-          </h5>
-          <p class="sale-item__footer">
-            Акция действует до
-            <span>31.08.2020</span>
-          </p>
-        </a>
-      </div>
-    </div>
-  </div>
-<div>
-  <section class="search">
-    <div class="container">
-      <div class="search__inner">
-        <div class="search__tabs">
-          <a class="search__tabs-item" href="#tab-1">Поиск по номеру</a>
-          <a class="search__tabs-item" href="#tab-2">Поиск по марке</a>
-          <a class="search__tabs-item" href="#tab-3">Поиск по названию товара</a>
-        </div>
-        <div class="search__content">
-          <div id="tab-1" class="search__content-item">
-            <form class="search__content-form">
-              <input class="search__content-input type="text" placeholder="Введите номер ">
-              <button class="search__content-btn>Искать</button>
-            </form>
-          </div>
-          <div id="tab-2" class="search__content-item">
-            <form class="search__content-form">
-              <input class="search__content-input type="text" placeholder="Введите марку ">
-              <button class="search__content-btn>Искать</button>
-            </form>
-          </div>
-          <div id="tab-3" class="search__content-item">
-            <form class="search__content-form">
-              <input class="search__content-input type="text" placeholder="Введите название товара ">
-              <button class="search__content-btn>Искать</button>
-            </form>
-          </div>
+            <div>
+              <img class="sale-item__img" src="images/content/sale-1.png" alt="">
+            </div>
+            <h5 class="sale-item__title">
+              Лодочный мотор Suzuki DF9.9BRS
+            </h5>
+            <p class="sale-item__footer">
+              Акция действует до
+              <span>31.08.2020</span>
+            </p>
+          </a>
         </div>
       </div>
     </div>
-  </section>
-</div>
+    
+    <section class="search page-section">
+      <div class="container">
+        <div class="search__inner">
+          <div class="search__tabs">
+            <a class="search__tabs-item search__tabs-item--active" href="#tab-1">Поиск по номеру</a>
+            <a class="search__tabs-item" href="#tab-2">Поиск по марке</a>
+            <a class="search__tabs-item" href="#tab-3">Поиск по названию товара</a>
+          </div>
+          <div class="search__content">
+            <div id="tab-1" class="search__content-item search__content-item--active">
+              <form class="search__content-form">
+                <input class="search__content-input" type="text" placeholder="Введите номер ">
+                <button class="search__content-btn">Искать</button>
+              </form>
+            </div>
+            <div id="tab-2" class="search__content-item">
+              <form class="search__content-form">
+                <input class="search__content-input" type="text" placeholder="Введите марку ">
+                <button class="search__content-btn">Искать</button>
+              </form>
+            </div>
+            <div id="tab-3" class="search__content-item">
+              <form class="search__content-form">
+                <input class="search__content-input" type="text" placeholder="Введите название товара ">
+                <button class="search__content-btn">Искать</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/slick.min.js"></script>
+ 
   <script src="js/main.js"></script>
 </body>
 </html>
