@@ -863,9 +863,106 @@ button..catalog__filter-btngline {
 .aside-filter__content.aside-filter__content-radio {
   flex-wrap: wrap;
 }
-.irs--flat{
+.irs--flat {
   width: 100%;
+  margin-top: -15px;
 }
-.irs- from{
+
+.irs--flat .irs-from,
+.irs--flat .irs-to,
+.irs--flat .irs-single {
   display: none;
+}
+.irs--flat .irs-min,
+.irs--flat .irs-max {
+  top: 55px;
+  font-family: 'Barlow', sans-serif;
+  padding: 0;
+  color: #2f3035;
+  font-size: 14px;
+  text-decoration: underline;
+  text-shadow: none;
+  background-color: transparent;
+  border-radius: 0;
+  visibility: visible !important;
+  padding-left: 27px;
+}
+
+.irs-max::before {
+  content: 'до';
+}
+.irs-min::before {
+  content: 'от';
+}
+.irs-max::before,
+.irs-min::before {
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  color: #c4c4c4;
+  line-height: 17px;
+  text-decoration: none;
+  left: 0;
+}
+/* 1C62CD */
+.irs--flat .irs-line {
+  top: 25px;
+  height: 1px;
+  background-color: #e0e0e0;
+  border-radius: 0;
+}
+.irs--flat .irs-bar {
+  top: 25px;
+  height: 3px;
+  background-color: #1c62cd;
+}
+.irs--flat .irs-handle {
+  top: 22px;
+  width: 8px;
+  height: 8px;
+  background-color: #1c62cd;
+  border-radius: 50%;
+}
+.irs--flat .irs-handle > i:first-child {
+  background-color: transparent;
+}
+.irs--flat .irs-handle.state_hover > i:first-child,
+.irs--flat .irs-handle:hover > i:first-child {
+  background-color: transparent;
+}
+
+.aside-filter__item-list {
+  margin: 80px 0 40px;
+  border-bottom: 2px solid #c4c4c4;
+}
+.filter__item-list {
+  display: flex;
+  justify-content: space-between;
+}
+.filter__item-listtitle {
+  font-family: 'SFProDisplay-Semibold', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  padding-bottom: 14px;
+}
+.filter__item-listselect {
+  font-size: 14px;
+  line-height: 17px;
+  color: #48494D;
+  font-family: 'Barlow', sans-serif;
+
+}
+.jq-selectbox__select {
+  font-size: 14px;
+  line-height: 17px;
+  color: #48494D;
+  font-family: 'Barlow', sans-serif;
+  height: 32px;
+  padding: 0 45px 0 10px;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
 }
