@@ -6,6 +6,14 @@ $(function () {
     nextArrow:
       '<button class="banner-section__slider-btn banner-section__slider-btnnext"><img src="images/arrow-right.svg" alt=""></button>',
     adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 969,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   });
 
   $('.tab').on('click', function (e) {
@@ -59,12 +67,12 @@ $(function () {
   });
   $('.rateYo').rateYo({
     rating: 3.6,
-    ratedFill: "#1C62CD",
-    normalFill: "#C4C4C4",
-    spacing: "7px"
+    ratedFill: '#1C62CD',
+    normalFill: '#C4C4C4',
+    spacing: '7px',
   });
 
-  $('.menu__btn').on('click', function(){
+  $('.menu__btn').on('click', function () {
     $('.menu-mobile__list').toggleClass('menu-mobile__list--active');
   });
 });
