@@ -63,4 +63,8 @@ $(function () {
     normalFill: "#C4C4C4",
     spacing: "7px"
   });
+
+  $('.menu__btn').on('click', function(){
+    $('.menu-mobile__list').toggleClass('menu-mobile__list--active');
+  });
 });

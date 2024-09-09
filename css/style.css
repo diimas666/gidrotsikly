@@ -35,6 +35,8 @@ body {
   font-size: 20px;
   line-height: 24px;
   font-weight: 400;
+  overflow-x: hidden;
+  min-width: 320px;
 }
 .container {
   max-width: 1200px;
@@ -62,6 +64,9 @@ body {
 .header__box {
   display: flex;
 }
+.menu__btn {
+  display: none;
+}
 .header__adress {
   margin-right: 60px;
   width: 265px;
@@ -76,6 +81,34 @@ body {
   width: 30px;
   left: 0;
   top: -7px;
+}
+.menu__mobile-linewrapper {
+  display: none;
+}
+.menu-mobile__list {
+  position: absolute;
+  width: 243px;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  transform: translateX(-100%);
+  transition: all .3s;
+  background-color: #fff;
+}
+.menu-mobile__list--active {
+  transform: translateX(0);
+}
+.menu-mobile__item {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.menu-mobile__link {
+  display: block;
+  padding-left: 53px;
+  padding-top: 36px;
+}
+.menu-mobile__img {
+  position: absolute;
+  left: 11px;
+  bottom: 0;
 }
 .user-list {
   display: flex;
