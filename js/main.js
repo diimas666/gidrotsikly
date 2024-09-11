@@ -111,4 +111,9 @@ $(function () {
     $(this).toggleClass('footer__top-itemdrop--active');
   });
 
+
+  $('.aside__btn').on('click', function(){
+    $(this).next().slideToggle();
+  });
+
 });

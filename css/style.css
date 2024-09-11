@@ -610,7 +610,9 @@ body {
   background: #f0f0f4;
   padding: 16px 43px;
 }
-
+.aside__btn {
+  display: none;
+}
 /* BANNER  */
 .banner__link {
   margin-bottom: 80px;
